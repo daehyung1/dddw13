@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8109308c-f6dd-42aa-9045-1a657f859d51}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{04d2b1c5-e913-42e9-a757-dae3d2262a99}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{f2924151-185c-4a47-a9a0-7bd1fa7e4f17}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DllLoad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DSS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DssFpError.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\util\common\ifgetpath_cpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ISignDtpDLL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBioApi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nBioApi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DllLoad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DSS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DssFpError.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ISignDtpDLL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBioApi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyNBioApi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files\NITGEN eNBSP\SDK\inc\NBioAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="img\BT_G_Cancel_DOWN.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\BT_G_Cancel_ON.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\BT_G_Cancel_OVER.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\BT_G_OK_down..bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\BT_G_OK_On.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\BT_G_OK_Over.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="progress.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="progress0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="progress1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\SVRFPAUTH_BODY_G.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\SVRFPAUTH_INNER_BODY_G.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Script2.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="if_progress.avi" />
+  </ItemGroup>
+</Project>
