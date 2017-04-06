@@ -1,0 +1,2 @@
+/md->/mtd로 
+진입점  exe -> library 모드로
